@@ -3,8 +3,8 @@ import NavBar from '../components/NavBar'
 import logo2 from "../assets/images/Logo (2).svg"
 import logo1 from "../assets/images/Logo (1).svg"
 import logo from "../assets/images/Logo.svg"
-import hero from "../assets/images/aafd339d1834d9e71b4ccb2fe6ff32efd99491a7 (1).png"
-
+import hero1 from "../assets/images/aafd339d1834d9e71b4ccb2fe6ff32efd99491a7 (1).png"
+import Hero from '../components/Hero'
 
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
 
 <div className="w-full">
   
-  <div className="lg:px-8 mb-7 ">
+  <div className="px-4 md:px-8 lg:px-16 mb-7 ">
     
       <NavBar />
   </div>
@@ -21,8 +21,7 @@ const Home = () => {
     
 
   <div className='bg-blue-200 min-h-screen w-full pt-7'>
-    <div className="lg:px-8 max-w-7xl mx-auto flex items-center gap-8">
-
+    <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8">
 
       <div className='flex-1'>
         <h3 className='text-7xl font-semibold text-black mt-20 leading-tight '>
@@ -49,7 +48,7 @@ const Home = () => {
       </div>
 
       <div className='flex-1'>
-        <img src={hero} alt="" className="w-full h-auto object-cover mt-8" />
+        <img src={hero1} alt="" className="w-full h-auto object-cover mt-8" />
       </div>
       </div>
   
@@ -57,13 +56,18 @@ const Home = () => {
 
 
 
-      <div className="mt-12 max-w-7xl mx-auto">
-        <h2 className='text-5xl font-semibold leading-[48px]'>
+      <div className="mt-12 max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
+        <h2 className='text-5xl font-semibold leading-[48px] mb-4'>
           We help more than 1500<br/>companies from all sectors
         </h2>
-        <p className='font-medium text-lg leading-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros<br/>
+        <p className='font-medium text-lg leading-[30px] mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros<br/>
         blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et<br/>
         pellentesque.</p>
+
+        <div>
+          <Hero/>
+
+        </div>
       </div>
     
   

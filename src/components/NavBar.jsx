@@ -15,7 +15,7 @@ const navLinks = [
 const NavBar = () => {
   return (
     <>
-      <div className='pt-7 w-full'>
+<div className="pt-7 w-full px-4 md:px-8 lg:px-16">
         <nav className='flex items-center justify-between text-black max-w-7xl mx-auto'>
           
             <div>
