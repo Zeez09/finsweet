@@ -12,6 +12,10 @@ import image from "../assets/images/image..png"
 import coffee from "../assets/images/2f58b1ab4704035ad09b7f0130d045eb1774a16e.png"
 import witch from "../assets/images/e8cfb696d1af4e76a8b71332d18bb7b27737ca22.png"
 import image2 from "../assets/images/image2.png"
+import circle from "../assets/images/Circle.png"
+import play from "../assets/images/play.png"
+import Blog from "../components/Blog"
+import Footer from '../components/Footer'
 
 
 const Home = () => {
@@ -19,10 +23,10 @@ const Home = () => {
 
 <div className="w-full bg-white">
   
-  <div className="px-4 md:px-8 lg:px-16 mb-7 ">
+
     
       <NavBar />
-  </div>
+  
 
     
     
@@ -192,17 +196,45 @@ const Home = () => {
         <p className='text-amber-500 text-sm'>CEO at MazeAI</p>
       </div>
     </div>
-
-
-  
 </div>
-<div className='flex-1'>
+
+
+<div className='flex-1 relative w-fit'>
   <img src={image2} alt="" />
 
+
+  <div className="absolute bottom-4 left-4 p-5 flex items-center gap-2">
+    <div className="relative w-12 h-12">
+    <img src={circle} alt="" className="w-full h-full"/>
+    <img src={play} alt="" className="w-3 h-3 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+</div>
+<span className="text-white font-medium text-lg">Play Video</span>
+
+</div>
 </div>
 </div>
 
-    
+
+<div className='bg-blue-200 h-screen w-full pt-10 mt-30'>
+        
+    <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+
+      <h3 className='text-5xl font-semibold mt-18'>Latest Blog & News</h3>
+
+      <div className='mt-10'>
+          <Blog />
+
+        </div>
+
+
+    </div>
+    </div>
+
+
+    <div>
+      <Footer/>
+
+    </div>
   
 
     </div>

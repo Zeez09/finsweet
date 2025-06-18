@@ -1,5 +1,7 @@
 import React from 'react'
 import hero from '../data/hero'
+import arrow from "../assets/images/icons8-arrow-right-24.png"
+
 
 
 
@@ -27,9 +29,10 @@ const Hero = () => {
 
               <a
                 href={hero.linkURL}
-                className="inline-block text-amber-600  font-semibold"
+                className="inline-flex items-center gap-2 text-amber-600  font-semibold"
               >
-                {hero.linkText}
+                {hero.linkText} 
+                <img src={arrow} alt="" />
               </a>
             </div>
           ))}
