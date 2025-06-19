@@ -18,7 +18,7 @@ const Hero = () => {
                 alt={hero.title}
                 className="w-[400px] h-[241px] object-cover rounded-xl mb-5"
               />
-              <h3 className="text-2xl font-semibold mb-2">{hero.title}</h3>
+              <h3 className="text-2xl font-bold mb-2">{hero.title}</h3>
               <div className="text-gray-400 mb-4">{hero.description.split('. ').map ((line, i) => (
                 <p key={i} className='text-gray-400'> {line}</p>
               ) 

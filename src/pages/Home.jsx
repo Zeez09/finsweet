@@ -14,7 +14,7 @@ import witch from "../assets/images/e8cfb696d1af4e76a8b71332d18bb7b27737ca22.png
 import image2 from "../assets/images/image2.png"
 import circle from "../assets/images/Circle.png"
 import play from "../assets/images/play.png"
-import Blog from "../components/Blog"
+import Blogs from "../components/Blogs"
 import Footer from '../components/Footer'
 
 
@@ -35,10 +35,10 @@ const Home = () => {
     <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8">
 
       <div className='flex-1'>
-        <h3 className='text-7xl font-semibold text-black mt-20 leading-tight '>
+        <h3 className='text-7xl font-bold text-black mt-20 leading-tight '>
         Prosper with Our<br/>bespoke solutions
       </h3>
-      <p className='text-2xl font-medium mt-2.5 leading-tight'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>
+      <p className='text-lg font-normal mt-2.5 leading-tight'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>
       Suspendisse varius enim in eros elementum tristique</p>
     
     <div className='flex flex-row mt-8 gap-6 text-2xl'>
@@ -68,10 +68,10 @@ const Home = () => {
 
 
       <div className="mt-12 max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
-        <h2 className='text-5xl font-semibold leading-[48px] mb-4'>
+        <h2 className='text-5xl font-bold leading-[48px] mb-4'>
           We help more than 1500<br/>companies from all sectors
         </h2>
-        <p className='font-medium text-lg leading-[30px] mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros<br/>
+        <p className='font-normal text-lg leading-[30px] mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros<br/>
         blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et<br/>
         pellentesque.</p>
 
@@ -219,10 +219,10 @@ const Home = () => {
         
     <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
 
-      <h3 className='text-5xl font-semibold mt-18'>Latest Blog & News</h3>
+      <h3 className='text-5xl font-bold mt-18'>Latest Blog & News</h3>
 
       <div className='mt-10'>
-          <Blog />
+          <Blogs />
 
         </div>
 

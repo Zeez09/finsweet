@@ -3,7 +3,7 @@ import { FaFacebookF, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className='bg-blue-900 w-full pb-10 pt-16 '>
+    <footer className='bg-blue-950 w-full pb-10 pt-16 h-[450px]'>
       
 
       <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-row justify-between">
@@ -55,7 +55,7 @@ const Footer = () => {
     </div>
     
       </div>
-      <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-row justify-between mt-30">
+      <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-row justify-between mt-20">
       <p className='text-white '>© All rights reserved – Finsweet</p>
       <div className='flex flex-row justify-between text-white gap-6'>
         <p>Privacy Policy</p>

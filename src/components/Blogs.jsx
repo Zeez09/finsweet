@@ -1,35 +1,35 @@
 import React from 'react'
-import blog from '../data/blog'
+import blogs from '../data/blogs'
 import arrow from "../assets/images/icons8-arrow-right-24.png"
 
 
 
 
-const Blog = () => {
+const Blogs = () => {
   return (
     <div className="grid grid-cols-3 gap-10">
-      {blog.map((blog, index) => (
+      {blogs.map((blogs, index) => (
             <div
               key={index}
               className="rounded-2xl overflow-hidden shadow-md bg-white"
             >
               <img
-                src={blog.image}
-                alt={blog.title}
+                src={blogs.image}
+                alt={blogs.title}
                 className="w-[400px] h-[241px] object-cover"
               />
               <div className='p-6'>
-                <h3 className="text-2xl font-semibold mb-2">{blog.title}</h3>
-                <div className="text-gray-400 mb-4">{blog.description.split('. ').map ((line, i) => (
+                <h3 className="text-2xl font-semibold mb-2">{blogs.title}</h3>
+                <div className="text-gray-400 mb-4">{blogs.description.split('. ').map ((line, i) => (
                 <p key={i} className='text-gray-400'> {line}</p>
               ))}
               </div>
               
               <a
-                href={blog.linkURL}
+                href={blogs.linkURL}
                 className="inline-flex items-center gap-2 text-amber-600  font-semibold"
               >
-                {blog.linkText} 
+                {blogs.linkText} 
                 <img src={arrow} alt="" />
               </a>
             </div>
@@ -40,4 +40,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default Blogs;
