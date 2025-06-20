@@ -38,7 +38,7 @@ const NavBar = () => {
 
 
 
-          <button className='bg-rose-200 px-4 py-2 rounded-md font-bold'>clone project</button>
+          <button className='bg-rose-50 px-4 py-2 rounded-3xl font-bold text-orange-400'>clone project</button>
                     </div>
 
 
