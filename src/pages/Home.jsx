@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar'
 import logo2 from "../assets/images/Logo (2).svg"
 import logo1 from "../assets/images/Logo (1).svg"
 import logo from "../assets/images/Logo.svg"
-import hero1 from "../assets/images/aafd339d1834d9e71b4ccb2fe6ff32efd99491a7 (1).png"
+import hero1 from "../assets/images/home img.png"
 import Hero from '../components/Hero'
 import Hero2 from '../components/hero2'
 import smiley from "../assets/images/image.png"
@@ -31,26 +31,26 @@ const Home = () => {
     
     
 
-  <div className='bg-blue-200 min-h-screen w-full pt-7'>
-    <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8">
+  <div className='bg-blue-200 h-[650px] w-full pt-7'>
+    <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-col lg:flex-row items-stretch h-full">
 
       <div className='flex-1'>
-        <h3 className='text-7xl font-bold text-black mt-20 leading-tight '>
+        <h3 className='text-6xl font-bold text-black mt-20 leading-tight '>
         Prosper with Our<br/>bespoke solutions
       </h3>
-      <p className='text-lg font-normal mt-2.5 leading-tight'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>
+      <p className='text-lg text-gray-500 mt-2.5 leading-tight'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>
       Suspendisse varius enim in eros elementum tristique</p>
     
-    <div className='flex flex-row mt-8 gap-6 text-2xl'>
-      <button className='bg-amber-600 px-10 py-3 rounded-4xl text-white'>See Our Services</button>
+    <div className='flex flex-row mt-8 gap-6'>
+      <button className='bg-amber-600 px-8 py-3 rounded-4xl text-white'>See Our Services</button>
       <button>See All Services</button>
 
       
     </div>
 
-    <p className='mt-20 text-black text-lg'>worked with 100+ companies</p>
+    <p className='mt-20 text-lg text-gray-400'>worked with 100+ companies</p>
 
-    <div className='flex flex-row gap-6'>
+    <div className='flex flex-row gap-6 mt-5'>
         <img src={logo2} alt="" />
         <img src={logo1} alt="" />
         <img src={logo} alt="" />
@@ -58,8 +58,8 @@ const Home = () => {
         
       </div>
 
-      <div className='flex-1'>
-        <img src={hero1} alt="" className="w-full h-auto object-cover mt-8" />
+      <div className='flex-1 flex items-end'>
+        <img src={hero1} alt="" className="w-full h-[600px] object-cover" />
       </div>
       </div>
   
@@ -67,29 +67,29 @@ const Home = () => {
 
 
 
-      <div className="mt-12 max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
+      <div className="mt-20 max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
         <h2 className='text-5xl font-bold leading-[48px] mb-4'>
           We help more than 1500<br/>companies from all sectors
         </h2>
-        <p className='font-normal text-lg leading-[30px] mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros<br/>
+        <p className='text-gray-500 mt-10 text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros<br/>
         blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et<br/>
         pellentesque.</p>
 
-        <div className='mb-20'>
+        <div className='mt-10'>
           <Hero/>
 
         </div>
       </div>
 
 
-      <div className='bg-blue-200 h-[665px] w-full pt-10'>
+      <div className='bg-blue-200 h-[665px] w-full mt-10'>
         
     <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
-      <div className='flex flex-row items-center justify-between mt-10'>
+      <div className='flex flex-row items-start gap-5 mt-10 pt-20' >
         
 
-      <h1 className='text-4xl font-semibold leading-[48px] mb-4'>We are building software solution<br/> that solves your business<br/> challenges</h1>
-      <p className='font-medium leading-[30px] mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur<br/> sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo<br/> suscipit tellus et pellentesque.</p>
+      <h1 className='text-4xl font-semibold '>We are building software solution<br/> that solves your business<br/> challenges</h1>
+      <h2 className='text-gray-500 text-xl '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur<br/> sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo<br/> suscipit tellus et pellentesque.</h2>
       
       </div>
 
@@ -104,17 +104,17 @@ const Home = () => {
 <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-row items-center gap-16 mt-20">
         <div className='flex-1'>
           <h3 className='text-5xl font-semibold leading-[48px] mt-15'>The energy of a start-up<br/>combined with 30 years<br/>of experience</h3>
-                <p className='font-medium text-lg leading-[30px] mt-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Curabitur sit amet eros blandit, hendrerit elit et, mattis<br/> purus. Vivamus commodo suscipit tellus et<br/> pellentesque.</p>
+                <p className='text-gray-500 text-xl leading-[30px] mt-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Curabitur sit amet eros blandit, hendrerit elit et, mattis<br/> purus. Vivamus commodo suscipit tellus et<br/> pellentesque.</p>
                 <div className='flex flex-row justify-between'>
                   <div>
                     <h3 className='text-amber-500 font-extrabold text-5xl mt-10'>15+</h3>
                     <h1 className='font-semibold text-3xl mt-2.5'>Awards received</h1>
-                    <p className='font-light text-lg mt-2.5'>Lorem ipsum dolor sit amet,<br/>consectetur adipiscin. Curabitur<br/>sit amet eros elit et.</p>
+                    <p className='text-gray-500 text-lg mt-2.5'>Lorem ipsum dolor sit amet,<br/>consectetur adipiscin. Curabitur<br/>sit amet eros elit et.</p>
                   </div>
                   <div>
                     <h3 className='text-amber-500 font-extrabold text-5xl mt-10'>500+</h3>
                     <h1 className='font-semibold text-3xl mt-2.5'>Clients served</h1>
-                    <p className='font-light text-lg mt-2.5'>Lorem ipsum dolor sit amet,<br/>consectetur adipiscin. Curabitur<br/>sit amet eros elit et.</p>
+                    <p className='text-gray-500 text-lg mt-2.5'>Lorem ipsum dolor sit amet,<br/>consectetur adipiscin. Curabitur<br/>sit amet eros elit et.</p>
                   </div>
                 </div>
 
@@ -145,9 +145,9 @@ const Home = () => {
     </div>
     
     <h2 className="text-5xl font-bold mt-20">Helping clients with<br/> research and strategy<br/>for their business </h2>
-    <p className="text-lg mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+    <p className="text-lg text-gray-500 mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
     Curabitur sit amet eros blandit, hendrerit elit et, mattis<br/> purus. Vivamus commodo suscipit tellus et<br/> pellentesque.</p> 
-    <p className='text-lg mt-5'>Mattis purus. Vivamus commodo suscipit tellus et<br/> pellent. Curabitur sit amet eros blan esque. </p>
+    <p className='text-lg text-gray-500 mt-5'>Mattis purus. Vivamus commodo suscipit tellus et<br/> pellent. Curabitur sit amet eros blan esque. </p>
 
 <a href="#" className="text-amber-500 flex items-center gap-2 mt-6 text-lg w-fit">
         See all Services
@@ -186,13 +186,13 @@ const Home = () => {
 <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-row items-center gap-16 mt-20">
   <div className='flex-1'>
     <h3 className='text-5xl font-semibold mt-5'>Finsweet Was A Dream<br/>To work with</h3>
-    <p className='mt-5'>Maecenas efficitur scelerisque lorem, et varius lacus<br/> tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis<br/> vel vel orci. Vivamus eleifend nec felis vel auctor.</p>
+    <p className='mt-5 text-gray-500 text-xl'>Maecenas efficitur scelerisque lorem, et varius lacus<br/> tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis<br/> vel vel orci. Vivamus eleifend nec felis vel auctor.</p>
     <div className='flex flex-row gap-5 mt-5'>
       <div className=''>
         <img src={witch} alt="" className='w-12 h-12 rounded-full object-cover' />
       </div>
       <div>
-        <h3 className='text-black font-bold'>Chikelu Neo</h3>
+        <h3 className='text-black font-semibold text-2xl'>Chikelu Neo</h3>
         <p className='text-amber-500 text-sm'>CEO at MazeAI</p>
       </div>
     </div>

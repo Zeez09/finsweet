@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import head from "../assets/images/Header Image1.png"
 import Blogs from "../components/Blogs"
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 
 const Careers = () => {
@@ -43,7 +44,7 @@ const Careers = () => {
                   <div className='w-[350px] h-[180px] bg-blue-100 rounded-2xl p-10 mt-10'>
                     <h3 className='text-2xl font-semibold'>Testing Engineer</h3>
                     <p className='text-gray-500 mt-2.5'>Bengaluru • Full time</p>
-                    <p className='text-amber-500 mt-7'>Apply Now</p>
+                    <Link to='/application' ><p className='text-amber-500 mt-7'>Apply Now</p></Link>
 
                   </div>
                   <div className='w-[350px] h-[180px] bg-blue-100 rounded-2xl p-10 mt-10'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router-dom'; 
 
 const Footer = () => {
   return (
@@ -58,7 +59,7 @@ const Footer = () => {
       <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto flex flex-row justify-between mt-20">
       <p className='text-white '>© All rights reserved – Finsweet</p>
       <div className='flex flex-row justify-between text-white gap-6'>
-        <p>Privacy Policy</p>
+        <Link to='/privacy-policy'><p>Privacy Policy</p></Link>
         <p>Terms & Conditions</p>
       </div>
 

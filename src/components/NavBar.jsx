@@ -19,7 +19,7 @@ const NavBar = () => {
         <nav className='flex items-center justify-between text-black'>
           
             <div>
-            <h3 className='font-bold'>Finsweet</h3>
+            <Link to='/home'><h3 className='font-bold'>Finsweet</h3></Link>
           </div>
 
           <div className="flex items-center gap-6">
