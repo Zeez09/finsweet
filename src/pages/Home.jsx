@@ -5,7 +5,7 @@ import logo1 from "../assets/images/Logo (1).svg"
 import logo from "../assets/images/Logo.svg"
 import hero1 from "../assets/images/home img.png"
 import Hero from '../components/Hero'
-import Hero2 from '../components/hero2'
+import Hero2 from '../components/Hero2'
 import smiley from "../assets/images/image.png"
 import arrow from "../assets/images/icons8-arrow-right-24.png"
 import image from "../assets/images/image..png"
