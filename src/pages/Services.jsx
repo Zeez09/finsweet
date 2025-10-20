@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import career1 from "../assets/images/career1.png"
 import feature1 from "../assets/images/Feature 1 Image.png"
-import feature2 from "../assets/images/Feature 2 Image.png"
+import feature2 from "../assets/images/Feature 2 image.png"
 import feature3 from "../assets/images/Feature 3 Image.png"
 import feature4 from "../assets/images/featue 4 image.png"
 import feature5 from "../assets/images/feature 5 image.png"
