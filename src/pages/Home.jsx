@@ -8,7 +8,7 @@ import Hero from '../components/Hero'
 import Hero2 from '../components/Hero2'
 import smiley from "../assets/images/image.png"
 import arrow from "../assets/images/icons8-arrow-right-24.png"
-import image from "../assets/images/image..png"
+import image from "../assets/images/image.png"
 import coffee from "../assets/images/2f58b1ab4704035ad09b7f0130d045eb1774a16e.png"
 import witch from "../assets/images/e8cfb696d1af4e76a8b71332d18bb7b27737ca22.png"
 import image2 from "../assets/images/image2.png"
